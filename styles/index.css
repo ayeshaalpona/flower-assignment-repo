@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+   display: flex;
+  }
+.header-title{
+    padding: 100px 350px 150px 200px;
+}
+.para-section{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 12px;
+font-weight: 400;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    padding: 12px 20px ;
+   
+}
+.img-title {
+    width: 300px;
+  }
+.header{
+    background-color: rgb(247, 211, 211);
+}
+.header-section{
+color: #272727;
+font-size: 50px;
+font-weight: 600;
+}
