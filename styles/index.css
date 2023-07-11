@@ -17,7 +17,6 @@ border-right: 240px; */
 }
 .header-title {
   max-width: 500px;
-  
 }
 .img-title {
   width: 400px;
@@ -28,10 +27,9 @@ border-right: 240px; */
   font-weight: 600;
   margin-bottom: 0px;
   font-weight: bolder;
-
 }
 .para-section {
-  color: #7C7778;
+  color: #7c7778;
   font-size: 12px;
   font-weight: 400;
   margin-top: 5px;
@@ -122,25 +120,24 @@ main {
 } */
 /* other section */
 .icon-bar {
-  background-color:#F4F4F4;
+  background-color: #f4f4f4;
   display: flex;
   justify-content: space-between;
   margin-top: 90px;
   padding: 50px 100px 50px 100px;
 }
-.icon-div{
+.icon-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.icon-img{
+.icon-img {
   width: 100px;
 }
 
 /* hot deal section */
 .hot-deal {
-  
   display: flex;
   background-color: rgb(246, 227, 227);
   padding: 100px 150px 100px 200px;
@@ -150,10 +147,10 @@ main {
   gap: 20px;
   justify-content: center;
 }
-.hot-deal-title{
+.hot-deal-title {
   text-align: center;
 }
-.hot-img{
+.hot-img {
   width: 240px;
   height: 290px;
 }
@@ -163,7 +160,7 @@ main {
   text-align: center;
   margin-bottom: 30px;
 }
-.inst-heading{
+.inst-heading {
   margin-top: 90px;
 }
 #img {
@@ -193,15 +190,15 @@ main {
   height: 300px;
   margin-top: 80px;
 }
-.footer-title{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- padding: 60px;
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
 }
 .footer-heading {
-  color: #E55473;
+  color: #e55473;
   margin-bottom: 0px;
 }
 .footer-para {
@@ -228,7 +225,40 @@ main {
   border: 0;
   width: 100%;
 }
-.input{
+.input {
   display: flex;
   justify-content: space-around;
 }
+
+/* bonus section  */
+.bonous {
+  display: flex;
+  justify-content: space-between;
+  background-color: #929a9944;
+  margin-top: 70px;
+  text-align: center;
+  height: 522px;
+}
+.bonous2 {
+  padding-left: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fac7b400;
+  text-align: center;
+  justify-content: center;
+}
+.bonous-title {
+  font-weight: bold;
+  color: #272727;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-weight: bolder;
+  text-align: center;
+}
+.bonus-img {
+  width: 500px;
+  height: 520px;
+
+ }
