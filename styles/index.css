@@ -2,8 +2,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.header{
-    background-color: rgb(253, 237, 237);
+.header {
+  background-color: rgb(253, 237, 237);
 }
 .banner {
   display: flex;
@@ -14,18 +14,18 @@ body {
   justify-content: space-around;
 border-right: 240px; */
 }
-.header-title{
-    max-width: 500px;
+.header-title {
+  max-width: 500px;
 }
 .img-title {
-    width: 400px;
-  }
-  .header-section {
-    color: #272727;
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 0px;
-  }
+  width: 400px;
+}
+.header-section {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
 .para-section {
   color: rgba(39, 39, 39, 0.6);
   font-size: 12px;
@@ -49,16 +49,16 @@ main {
   margin: 0 auto;
 }
 .our {
-    padding: 100px;
-    border-radius: 10px;
+  padding: 100px;
+  border-radius: 10px;
   text-align: center;
 }
 .our-section {
-    color: #272727;
-   font-size: 30px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  color: #272727;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /* .our-para-section{
     color: rgba(39, 39, 39, 0.60);
@@ -67,15 +67,41 @@ main {
     font-weight: 400;
 } */
 
-
 .our-feature-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: center; */
+  gap: 30px;
+}
+.feature {
+  padding: 24px;
+  border-radius: 300px 300px 0px 0px;
+  width: 310px;
+}
+#feature-id {
+  background: rgba(167, 33, 98, 0.15);
+}
+#feature-id-1 {
+  background: rgba(5, 151, 160, 0.15);
+}
+#feature-id-2 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.feature-img {
+  width: 300px;
 }
 .tree-section {
   display: flex;
   justify-content: space-between;
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
 }
+/* .links{
+  display: flex;
+  text-align: center;
+} */
 /* other section */
 .icon-bar {
   background-color: aqua;
@@ -109,9 +135,11 @@ main {
   text-align: center;
   height: 300px;
 }
+.footer-title{
+ 
+}
 .footer-heading {
   color: #e55473;
-  
 }
 .footer-para {
   color: rgba(255, 255, 255, 0.9);
@@ -121,7 +149,22 @@ main {
 }
 
 /* latest part */
-.latest{
-    background-image: url(../image/Rectangle\ 9.png);
-
+.latest {
+  background-image: url(../image/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  padding: 100px 240px;
+  text-align: center;
+}
+.input-field {
+  display: block;
+  padding: 18px 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+  width: 100%;
+}
+.input{
+  display: flex;
+  justify-content: space-around;
 }
