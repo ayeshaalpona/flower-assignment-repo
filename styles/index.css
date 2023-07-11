@@ -240,7 +240,7 @@ main {
   height: 522px;
 }
 .bonous2 {
-  padding-left: 116px;
+  padding-left: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,7 +258,6 @@ main {
   text-align: center;
 }
 .bonus-img {
-  width: 500px;
+  width: 600px;
   height: 520px;
-
- }
+}
